@@ -14,6 +14,7 @@ class Queue:
     def __str__(self):
         return(str(self.queue))
 
+
 Q = Queue()
 Q.enqueue(10)
 Q.enqueue(20)
