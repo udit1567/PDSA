@@ -12,6 +12,7 @@ class Stack:
         return v    
     def __str__(self):
         return(str(self.stack))
+    
 S = Stack()
 S.Push(10)
 S.Push(20)
