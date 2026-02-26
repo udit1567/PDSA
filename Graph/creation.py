@@ -6,3 +6,4 @@ AMat = np.zeros(shape=(size,size))
 for (i,j) in E:
     AMat[i,j] = 1 # mark 1 if edge present in graph from i to j , otherwise 0
 print(AMat)
+
